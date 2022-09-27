@@ -3,3 +3,6 @@ git commit -m "hello world"
 git push
 git fetch
 git log
+git pull
+git restore *
+
