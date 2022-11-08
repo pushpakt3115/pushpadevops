@@ -1,0 +1,8 @@
+---
+- hosts: testservers
+  connection: local
+  become: yes
+  tasks:
+       - name: printing message
+         debug:
+          msg: I Love practise
